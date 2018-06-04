@@ -1,0 +1,13 @@
+#!/bin/bash
+
+if [ "$1" = "prg" ]; then
+	setxkbmap -layout no -variant programmer
+fi
+
+if [ "$1" = "nn" ]; then
+	setxkbmap -layout no -variant nn
+fi
+
+if [ "$1" = "none" ]; then
+	setxkbmap -layout no
+fi
