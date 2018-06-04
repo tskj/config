@@ -6,3 +6,11 @@ cp keyboard /etc/default/keyboard
 
 echo "export VISUAL=vim" >> ~/.bashrc
 echo "export EDITOR=\"\$VISUAL\"" >> ~/.bashrc
+
+if ! git config --global user.name > /dev/null; then
+	git config --global user.name "Tarjei Skjærset"
+fi
+
+if ! git config --global user.email > /dev/null; then
+	git config --global user.email "epost@tarjei.org"
+fi
