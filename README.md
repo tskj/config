@@ -9,7 +9,7 @@ Run the following commands
 ```
 cd ~
 git init
-git remote add origin https://github.com/tskj/config
+git remote add origin https://github.com/tskj/config.git
 git fetch
 git checkout -t origin/master
 ```
