@@ -3,3 +3,6 @@
 cp kb-symbols/* /usr/share/X11/xkb/symbols
 cp kb-rules/* /usr/share/X11/xkb/rules
 cp keyboard /etc/default/keyboard
+
+echo "export VISUAL=vim" >> ~/.bashrc
+echo "export EDITOR=\"\$VISUAL\"" >> ~/.bashrc
