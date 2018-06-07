@@ -233,9 +233,9 @@ xkb_symbols "programmer" {
     key <AD12>	{ [	bracketright, asciicircum, braceright	] };
     key <AC10>	{ [	      dollar,      oslash		] };
     key <AC11>	{ [	  asciitilde,          ae		] };
-    key <AD02>	{ [	           w,           W, slash	] };
-    key <AD03>	{ [	           e,           E, parenleft	] };
-    key <AD04>	{ [	           r,           R, parenright	] };
+    key <AD02>	{ [	           w,           W, parenleft	] };
+    key <AD03>	{ [	           e,           E, parenright	] };
+    key <AD04>	{ [	           r,           R, slash	] };
     key <AC01>	{ [	           a,           A, ampersand	] };
     key <AC02>	{ [	           s,           S, percent	] };
 };
@@ -250,9 +250,9 @@ xkb_symbols "nn" {
     key <AB04>	{ [	   b, B		] };
     key <AB05>	{ [	less, greater   ] };
 
-    key <AD02>	{ [	           w,           W, slash	] };
-    key <AD03>	{ [	           e,           E, parenleft	] };
-    key <AD04>	{ [	           r,           R, parenright	] };
+    key <AD02>	{ [	           w,           W, parenleft	] };
+    key <AD03>	{ [	           e,           E, parenright	] };
+    key <AD04>	{ [	           r,           R, slash	] };
     key <AC01>	{ [	           a,           A, ampersand	] };
     key <AC02>	{ [	           s,           S, percent	] };
 };
