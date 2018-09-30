@@ -4,6 +4,8 @@ cp kb-symbols/* /usr/share/X11/xkb/symbols
 cp kb-rules/* /usr/share/X11/xkb/rules
 cp keyboard /etc/default/keyboard
 cp karabiner.json ~/.config/karabiner
+cp vscode/settings.json "$HOME/Library/Application Support/Code/User/" #macOS
+cp vscode/settings.json "$HOME/.config/Code/User/" #Linux
 cp .spacemacs ~/
 cp .tmux.conf ~/
 
