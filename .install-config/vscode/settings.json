@@ -815,7 +815,7 @@
       "after": [],
       "commands": [
         {
-          "command": "workbench.action.focusPreviousGroup",
+          "command": "workbench.action.navigateLeft",
           "args": []
         }
       ]
@@ -835,7 +835,7 @@
       "after": [],
       "commands": [
         {
-          "command": "workbench.action.focusBelowGroup",
+          "command": "workbench.action.navigateDown",
           "args": []
         }
       ]
@@ -845,7 +845,7 @@
       "after": [],
       "commands": [
         {
-          "command": "workbench.action.focusAboveGroup",
+          "command": "workbench.action.navigateUp",
           "args": []
         }
       ]
@@ -855,7 +855,7 @@
       "after": [],
       "commands": [
         {
-          "command": "workbench.action.focusNextGroup",
+          "command": "workbench.action.navigateRight",
           "args": []
         }
       ]
